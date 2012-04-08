@@ -4,6 +4,8 @@ require './lib/debugger'
 
 PORT = 2000
 ADDRESS = "127.0.0.1"
+HOME_DIR = "./public"
+DEFAULT_FILE = "index.html"
 
 def greeting
   puts "My Webserver is Started!"
